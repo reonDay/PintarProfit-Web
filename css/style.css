@@ -446,6 +446,21 @@ ul.email li i {
 
 /** wallet **/
 
+#wallet-services .container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+#wallet-services .row {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#wallet-services .col-lg-3 {
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+}
+
 .wallet {
      padding: 113px 30px 0 30px;
 }
